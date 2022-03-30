@@ -1,0 +1,40 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  max-width: 60vh;
+  margin: 0 auto;
+  position: relative;
+  background-color: #fff;
+  padding: 0.5rem;
+}
+
+.home__welcomeText h1 {
+  font-family: 'Gilroy-ExtraBold';
+  color: #6078ea;
+  font-size: 48px;
+}
+
+.home__welcomeText p {
+  font-family: Proxima Nova;
+  font-size: 24px;
+  color: #4f4f4f;
+}
+
+.home__nextBtn {
+  display: flex;
+  flex-direction: column;
+  width: 66px;
+  position: absolute;
+  bottom: 55px;
+  right: 19px;
+  text-decoration: none;
+  color: #4f4f4f;
+}
+
+.home__nextBtn img {
+  font-family: Proxima Nova;
+  font-size: 12px;
+  width: 51.5px;
+}

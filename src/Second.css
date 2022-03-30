@@ -1,0 +1,79 @@
+.second {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 60vh;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.tap {
+  position: absolute;
+  height: 100%;
+  background-color: #ffffff00;
+  width: 50%;
+  z-index: 1000;
+  right: 0;
+}
+
+.second__header p {
+  text-align: center;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  color: #959595;
+}
+
+.second__progressBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.second__progressBar div {
+  width: 115.55px;
+  background-color: #e0e0e0;
+  height: 5px;
+  margin: 0.2rem;
+  border-radius: 4px;
+}
+
+.second__progressBar .progress {
+  background-color: #6078ea;
+}
+
+.second__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.second__section h3 {
+  font-size: 72px;
+  font-family: Gilroy-ExtraBold;
+  color: #6078ea26;
+}
+
+.second__section img {
+  height: 29rem;
+  width: 14rem;
+  align-self: center;
+}
+
+.second__section .second__bottomText {
+  position: absolute;
+  background-color: #fff;
+  height: 13rem;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(247, 248, 253, 0) 0%, #f7f8fd 34.5%);
+}
+
+.second__section .second__bottomText h4 {
+  font-size: 24px;
+  font-family: Gilroy-Bold;
+  color: #6078ea;
+  margin-top: 5rem;
+}

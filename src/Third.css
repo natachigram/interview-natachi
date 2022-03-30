@@ -1,0 +1,86 @@
+.third {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 60vh;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 0.5rem;
+}
+
+.third .tap-left {
+  position: absolute;
+  height: 100%;
+  background-color: #ffffff00;
+  width: 50%;
+  z-index: 1000;
+  left: 0;
+}
+.third .tap-right {
+  position: absolute;
+  height: 100%;
+  background-color: #ffffff00;
+  width: 50%;
+  z-index: 1000;
+  right: 0;
+}
+
+.third__header p {
+  text-align: center;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  color: #959595;
+}
+
+.third__progressBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.third__progressBar div {
+  width: 115.55px;
+  background-color: #e0e0e0;
+  height: 5px;
+  margin: 0.2rem;
+  border-radius: 4px;
+}
+
+.third__progressBar .progress {
+  background-color: #6078ea;
+}
+
+.third__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.third__section h3 {
+  font-size: 72px;
+  font-family: Gilroy-ExtraBold;
+  color: #6078ea26;
+}
+
+.third__section img {
+  height: 29rem;
+  width: 14rem;
+  align-self: center;
+}
+
+.third__section .third__bottomText {
+  position: absolute;
+  background-color: #fff;
+  height: 13rem;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(247, 248, 253, 0) 0%, #f7f8fd 34.5%);
+}
+
+.third__section .third__bottomText h4 {
+  font-size: 24px;
+  font-family: Gilroy-Bold;
+  color: #6078ea;
+  margin-top: 5rem;
+}

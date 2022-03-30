@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import './font/FontsFree-Net-proxima_nova_reg-webfont.ttf';
+import './font/Gilroy-Bold.ttf';
+import './font/Gilroy-ExtraBold.ttf';
+import './font/Gilroy-SemiBold.ttf';
 
 ReactDOM.render(
   <BrowserRouter>
